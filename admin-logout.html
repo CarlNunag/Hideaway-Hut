@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hideaway Hut | Logout</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="logo.svg" type="image/x-icon" />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="admin-style.mn.css" />
+  </head>
+
+  <body>
+    <div class="layer"></div>
+    <div class="page-flex">
+
+      <div class="main-wrapper">
+        <!-- ! Main nav -->
+        <nav class="main-nav--bg">
+            
+          <div class="container main-nav">
+              <h2 class="main-title" style="margin: 0 auto;">Thank you for using Hideaway Hut!</h2>
+            <div class="main-nav-start"></div>
+            <div class="main-nav-end">
+              <button
+                class="sidebar-toggle transparent-btn"
+                title="Menu"
+                type="button"
+              >
+                <span class="sr-only">Toggle menu</span>
+                <span class="icon menu-toggle--gray" aria-hidden="true"></span>
+              </button>
+
+              <div class="nav-user-wrapper">
+                <button
+                  href="##"
+                  class="nav-user-btn dropdown-btn"
+                  title="My profile"
+                  type="button"
+                >
+                  <span class="sr-only">My profile</span>
+                  <span class="nav-user-img">
+                    <picture
+                      ><source
+                        srcset="avatar-illustrated-02.webp"
+                        type="image/webp" />
+                      <img
+                        src="avatar-illustrated-02.png"
+                        alt="User name"
+                    /></picture>
+                  </span>
+                </button>
+                <ul class="users-item-dropdown nav-user-dropdown dropdown">
+
+                  <li>
+                    <a class="green" href="index(3).html">
+                      <i data-feather="log-out" aria-hidden="true"></i>
+                      <span>Log in</span>
+                    </a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <!-- ! Main -->
+        <main class="main users chart-page" id="skip-target">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-9">
+                
+                <h3 class="main-title">Logout success</h3>
+                
+                <br>
+                <a class="green" href="index.html" style="padding: .3rem 1rem; border-radius: 1rem; border: .1rem solid rgb(0, 97, 247); color: rgb(0, 97, 247);">
+                    Back to login page
+                </a>
+                
+            </div>
+          </div>
+        </main>
+        
+        
+
+        <!-- ! Footer -->
+        
+      </div>
+    </div>
+    <!-- Chart library -->
+    <script src="admin-chart.min.js"></script>
+    <!-- Icons library -->
+    <script src="admin-feather.min.js"></script>
+    <!-- Custom scripts -->
+    <script src="admin-script.js"></script>
+  </body>
+</html>
