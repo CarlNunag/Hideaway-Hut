@@ -1,0 +1,602 @@
+@import url(customer-style.css);
+
+@media (min-width: 299px) and (max-width: 399px) {
+    .fluid-form {
+        width: 70vw;
+        height: 14.5rem;
+        margin-top: 6vh;
+    }
+    
+    #heading-1 {
+        text-align: center;
+        font-size: 0.7rem;
+        padding: 2vh 0;
+    }
+    
+    #heading-2 {
+        padding-top: 3vh;
+        padding-left: 2vw;
+        font-size: 0.5rem;
+    }
+    
+    hr, #hr-2 {
+        height: 0.2rem;
+        background: var(--gray);
+        outline: none;
+        border: none;
+    }
+    
+    #quantity-box {
+        height: 1rem;
+        width: 1rem;
+        font-size: 0.3rem;
+        margin-top: 3vh;
+        margin-left: 2vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #product-name {
+        font-size: 0.3rem;
+        margin-top: -1rem;
+        padding-left: 1.7rem;
+        font-weight: bolder;
+        width: 48vw;
+    }
+    
+    #product-price {
+        font-size: 0.3rem;
+        font-weight: bolder;
+        margin-top: 0.2rem;
+        margin-left: 18.5vw;
+        position: absolute;
+    }
+    
+    #subtotal, #delivery-fee {
+        font-size: 0.3rem;
+        font-weight: 600;
+        padding-left: 2vw;
+    }
+    
+    #hr-2 {
+        margin-top: 4vh;
+    }
+    
+    #subtotal {
+        margin-top: 5vh;
+    }
+    
+    #delivery-fee {
+        margin-top: 2vh;
+    }
+
+    #deliver-to {
+        font-size: 0.5rem;
+        padding-left: 2vw;
+        margin-top: 0.6rem;
+    }
+    
+    #delivery-address-input {
+        padding: 0.2rem 0.5rem;
+        margin-left: 2vw;
+        margin-top: 0.2rem;
+        font-size: 0.3rem;
+        width: 77%;
+    }
+
+    #rider-notes {
+        font-size: 0.8rem;
+        padding-left: 2vw;
+        margin-top: 0.8rem;
+    }
+
+    #rider-notes-input {
+        padding: 0.2rem 0.5rem;
+        margin-left: 2vw;
+        margin-top: 0.2rem;
+        font-size: 0.3rem;
+        width: 77%;
+    }
+
+    #contact-number-input {
+        padding: 0.2rem 0.5rem;
+        margin-top: 0.2rem;
+        font-size: 0.6rem;
+        width: 25%;
+    }
+    
+    #payment-details {
+        margin-top: 2vh;
+        padding-left: 2vw;
+        font-size: 0.5rem;
+    }
+    
+    #mode-of-payment {
+        font-size: 0.3rem;
+        padding-left: 2vw;
+        margin-top: 2vh;
+    }
+    
+    #hr-3 {
+        margin-top: 3vh;
+    }
+
+    #hr-4 {
+        margin-top: 0.6rem;
+    }
+    
+    #total {
+        padding-left: 2vw;
+        margin-top: 2vh;
+        font-size: 0.3rem;
+    }
+    
+    #total-price {
+        margin-left: 75%;
+        font-size: 0.3rem;
+    }
+    
+    #place-order-button {
+        margin-top: 2vh;
+        margin-left: 3%;
+        width: 94%;
+        border-radius: 3mm;
+        font-size: 0.5rem;
+        padding: 1vh 0;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 539px) {
+    .fluid-form {
+        width: 70vw;
+        height: 22rem;
+        margin-top: 6vh;
+    }
+    
+    #heading-1 {
+        text-align: center;
+        font-size: 0.8rem;
+        padding: 2vh 0;
+    }
+    
+    #heading-2 {
+        padding-top: 3vh;
+        padding-left: 2vw;
+        font-size: 0.6rem;
+    }
+    
+    hr, #hr-2 {
+        height: 0.2rem;
+        background: var(--gray);
+        outline: none;
+        border: none;
+    }
+    
+    #quantity-box {
+        height: 1rem;
+        width: 1rem;
+        font-size: 0.4rem;
+        margin-top: 3vh;
+        margin-left: 2vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #product-name {
+        font-size: 0.4rem;
+        margin-top: -0.9rem;
+        padding-left: 1.7rem;
+        font-weight: bolder;
+        width: 48vw;
+    }
+    
+    #product-price {
+        font-size: 0.4rem;
+        font-weight: bolder;
+        margin-top: -0.44rem;
+        margin-left: 59vw;
+        position: absolute;
+    }
+    
+    #subtotal, #delivery-fee {
+        font-size: 0.4rem;
+        font-weight: 600;
+        padding-left: 2vw;
+    }
+
+    #rider-notes{
+        font-size: 0.6rem;
+        padding-left: 2vw;
+        margin-top: 0.8rem;
+    }
+
+    #contact-number {
+        font-size: 0.6rem;
+        padding-left: 2vw;
+        margin-top: 0.8rem;
+    }
+
+    #rider-notes-input {
+        padding: 0.2rem 0.5rem;
+        margin-top: 0.2rem;
+        font-size: 0.4rem;
+        width: 80%;
+    }
+
+    #contact-number-input {
+        padding: 0.2rem 0.5rem;
+        margin-top: 0.2rem;
+        font-size: 0.4rem;
+        width: 30%;
+    }
+    
+    #hr-2 {
+        margin-top: 4vh;
+    }
+    
+    #subtotal {
+        margin-top: 4vh;
+    }
+    
+    #delivery-fee {
+        margin-top: 2vh;
+    }
+
+    #deliver-to {
+        font-size: 0.6rem;
+        padding-left: 2vw;
+        margin-top: 0.6rem;
+    }
+    
+    #delivery-address-input {
+        padding: 0.2rem 0.5rem;
+        margin-left: 2vw;
+        margin-top: 0.2rem;
+        font-size: 0.4rem;
+        width: 80%;
+    }
+    
+    #payment-details {
+        margin-top: 2vh;
+        padding-left: 2vw;
+        font-size: 0.6rem;
+    }
+    
+    #mode-of-payment {
+        font-size: 0.4rem;
+        padding-left: 2vw;
+        margin-top: 2vh;
+    }
+    
+    #hr-3 {
+        margin-top: 3vh;
+    }
+
+    #hr-4 {
+        margin-top: 0.6rem;
+    }
+    
+    #total {
+        padding-left: 2vw;
+        margin-top: 2vh;
+        font-size: 0.4rem;
+    }
+    
+    #total-price {
+        margin-left: 75%;
+        font-size: 0.4rem;
+    }
+    
+    #place-order-button {
+        margin-top: 2vh;
+        margin-left: 3%;
+        width: 94%;
+        border-radius: 3mm;
+        font-size: 0.6rem;
+        padding: 1vh 0;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 992px) {
+    .fluid-form {
+        width: 70vw;
+        height: 27rem;
+        margin-top: 6vh;
+        margin-bottom: 6vh;
+    }
+    
+    #heading-1 {
+        text-align: center;
+        font-size: 1rem;
+        padding: 2vh 0;
+    }
+    
+    #heading-2 {
+        padding-top: 3vh;
+        padding-left: 2vw;
+        font-size: 0.8rem;
+    }
+    
+    hr, #hr-2 {
+        height: 0.2rem;
+        background: var(--gray);
+        outline: none;
+        border: none;
+    }
+    
+    #quantity-box {
+        height: 1.5rem;
+        width: 1.5rem;
+        font-size: 0.6rem;
+        margin-top: 3vh;
+        margin-left: 2vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #product-name {
+        font-size: 0.6rem;
+        margin-top: -1.25rem;
+        padding-left: 2.5rem;
+        font-weight: bolder;
+        width: 52vw;
+    }
+    
+    #product-price {
+        font-size: 0.6rem;
+        font-weight: bolder;
+        margin-top: -0.75rem;
+        margin-left: 59vw;
+        position: absolute;
+    }
+    
+    #subtotal, #delivery-fee {
+        font-size: 0.6rem;
+        font-weight: 600;
+        padding-left: 2vw;
+    }
+
+    #rider-notes, #contact-number {
+        font-size: 0.8rem;
+        padding-left: 2vw;
+        margin-top: 0.8rem;
+    }
+
+    #rider-notes-input {
+        padding: 0.2rem 0.5rem;
+        margin-top: 0.4rem;
+        font-size: 0.6rem;
+        width: 85%;
+    }
+    
+    #contact-number-input {
+        padding: 0.2rem 0.5rem;
+        margin-top: 0.2rem;
+        font-size: 0.6rem;
+        width: 25%;
+    }
+
+    #hr-2 {
+        margin-top: 4vh;
+    }
+    
+    #subtotal {
+        margin-top: 4vh;
+    }
+    
+    #delivery-fee {
+        margin-top: 2vh;
+    }
+
+    #deliver-to {
+        font-size: 0.8rem;
+        padding-left: 2vw;
+        margin-top: 0.6rem;
+    }
+    
+    #delivery-address-input {
+        padding: 0.2rem 0.5rem;
+        margin-left: 2vw;
+        margin-top: 0.4rem;
+        font-size: 0.6rem;
+        width: 85%;
+    }
+
+    #hr-4 {
+        margin-top: 0.6rem;
+    }
+    
+    #payment-details {
+        margin-top: 2vh;
+        padding-left: 2vw;
+        font-size: 0.8rem;
+    }
+    
+    #mode-of-payment {
+        font-size: 0.6rem;
+        padding-left: 2vw;
+        margin-top: 2vh;
+    }
+    
+    #hr-3 {
+        margin-top: 3vh;
+    }
+    
+    #total {
+        padding-left: 2vw;
+        margin-top: 2vh;
+        font-size: 0.6rem;
+    }
+    
+    #total-price {
+        margin-left: 74%;
+        font-size: 0.6rem;
+    }
+    
+    #place-order-button {
+        margin-top: 2vh;
+        margin-left: 3%;
+        width: 94%;
+        border-radius: 3mm;
+        font-size: 0.8rem;
+        padding: 1vh 0;
+    }
+    
+    
+}
+
+
+
+@media (min-width: 993px) and (max-width: 1440px) {
+    .fluid-form {
+        width: 70vw;
+        height: 25.5rem;
+        margin-top: 6vh;
+        margin-bottom: 1rem;
+    }
+    
+    #heading-1 {
+        text-align: center;
+        font-size: 1rem;
+        padding: 2vh 0;
+    }
+    
+    #heading-2 {
+        padding-top: 3vh;
+        padding-left: 2vw;
+        font-size: 0.8rem;
+    }
+    
+    hr, #hr-2 {
+        height: 0.2rem;
+        background: var(--gray);
+        outline: none;
+        border: none;
+    }
+    
+    #quantity-box {
+        height: 1.5rem;
+        width: 1.5rem;
+        font-size: 0.6rem;
+        margin-top: 3vh;
+        margin-left: 2vw;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #product-name {
+        font-size: 0.6rem;
+        margin-top: -1.25rem;
+        padding-left: 3.5rem;
+        font-weight: bolder;
+        width: 52vw;
+    }
+    
+    #product-price {
+        font-size: 0.6rem;
+        font-weight: bolder;
+        margin-top: -0.75rem;
+        margin-left: 61vw;
+        position: absolute;
+    }
+    
+    #subtotal, #delivery-fee {
+        font-size: 0.6rem;
+        font-weight: 600;
+        padding-left: 2vw;
+    }
+
+    #rider-notes, #contact-number {
+        font-size: 0.8rem;
+        padding-left: 2vw;
+        margin-top: 0.8rem;
+    }
+
+    #rider-notes-input {
+        padding: 0.2rem 0.5rem;
+        margin-top: 0.2rem;
+        font-size: 0.6rem;
+        width: 90%;
+    }
+
+    #contact-number-input {
+        padding: 0.2rem 0.5rem;
+        margin-top: 0.2rem;
+        font-size: 0.6rem;
+        width: 25%;
+    }
+
+    #deliver-to {
+        font-size: 0.8rem;
+        padding-left: 2vw;
+        margin-top: 0.8rem;
+    }
+    
+    #delivery-address-input {
+        padding: 0.2rem 0.5rem;
+        margin-left: 2vw;
+        margin-top: 0.2rem;
+        font-size: 0.6rem;
+        width: 90%;
+    }
+
+    #hr-4 {
+        margin-top: 0.6rem;
+    }
+    
+    #hr-2 {
+        margin-top: 4vh;
+    }
+    
+    #subtotal {
+        margin-top: 8vh;
+    }
+    
+    #delivery-fee {
+        margin-top: 2vh;
+    }
+    
+    #payment-details {
+        margin-top: 4vh;
+        padding-left: 2vw;
+        font-size: 0.8rem;
+    }
+    
+    #mode-of-payment {
+        font-size: 0.6rem;
+        padding-left: 2vw;
+        margin-top: 1vh;
+    }
+    
+    #hr-3 {
+        margin-top: 3vh;
+    }
+    
+    #total {
+        padding-left: 2vw;
+        margin-top: 2vh;
+        font-size: 0.6rem;
+    }
+    
+    #total-price {
+        margin-left: 80%;
+        font-size: 0.6rem;
+    }
+    
+    #place-order-button {
+        margin-top: 2vh;
+        margin-left: 3%;
+        width: 94%;
+        border-radius: 3mm;
+        font-size: 0.8rem;
+        padding: 1vh 0;
+    }
+}
